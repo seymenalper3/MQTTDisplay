@@ -110,23 +110,5 @@ If you'd like to contribute to this project:
 
 ---
 
-  %% Bu blok GitHub/GitLab veya Mermaid destekleyen editörlerde çalışır
-  usecaseDiagram
-    actor Üye
-    actor Admin
-
-    Üye -- (Kayıt Ol)
-    Üye -- (Giriş Yap)
-    Üye -- (Profil Düzenle)
-    Üye -- (Gönderi Paylaş)
-    Üye -- (Bağlantı İsteği Gönder)
-    Üye -- (Bildirimleri Görüntüle)
-    Üye -- (Çıkış Yap)
-
-    Admin -- (Kullanıcı Sil)
-    Admin -- (Raporları Görüntüle)
-
-    (Profil Düzenle) ..> (Giriş Yap) : «include»
-    (Gönderi Paylaş) ..> (Giriş Yap) : «include»
 
 
